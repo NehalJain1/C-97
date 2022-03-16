@@ -59,6 +59,6 @@ window.location = "Page3_index.html";
 function logout() {
        localStorage.removeItem("user_name");
       localStorage.removeItem("room_name");
-      window.location = "Page1_index.html";
+      window.location = "index.html";
 }
 

@@ -62,3 +62,9 @@ updated_like = Number(like) + 1 ;
 
 firebase.database().ref(room_name).child(button_id).update({ like : updated_like });
 }
+
+function logout() {
+      localStorage.removeItem("user_name");
+     localStorage.removeItem("room_name");
+     window.location = "index.html";
+}
